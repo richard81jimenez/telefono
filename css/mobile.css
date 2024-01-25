@@ -1,0 +1,17 @@
+@media (max-width:480px){
+    .curvos{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .curvos .curvo1 .colores{
+        transform: scaleX(1.5);
+        border-radius: 0;
+        
+    }
+    .curvos .curvo1{
+        
+
+    }
+
+}

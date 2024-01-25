@@ -1,0 +1,421 @@
+body{
+     margin:0;
+     padding:0; 
+}
+
+.superpadre{
+    background-color:#0F1320 ;
+}
+.contenedor1{
+    display: flex;
+    background-image: url(../img/sombra.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.amarill{
+    width: 40%;
+    margin-left: 20px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+}
+.verde{
+    width:60%;
+}
+.verde .imat{
+    width: 100%;
+    height: 100%;
+}
+.boton{
+    display: flex;
+    
+    height: 10%;
+}
+.bot{
+    display: flex;
+    text-decoration: none;
+    width: 90px;
+    height: 20px;
+    background-color: aquamarine;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: black;
+
+    
+}
+.amarill h1 {
+     color: white; 
+}
+.amarill p{
+    color: white;
+}
+
+.amarill h5{
+    color: #00B4EC;
+}
+.barra{
+    display: flex;
+    position: fixed;
+   
+    width: 100%;
+    
+   
+}
+.barra .lista{
+    display: flex;
+    margin-left: 1%;
+    width: 50%;
+
+    
+}
+.barra li{
+    
+    color: white;
+   margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    list-style: none;
+    
+}
+.barra .logob{
+    width: 100%;
+    margin-top: 20px;
+}
+.derecha{
+    display: flex;
+    width: 300px;
+    margin-left: 24%;
+   
+    
+    
+}
+.derecha .sing{
+    display: flex;
+   width: 20%;
+   padding: 10px 10px;
+   
+}
+.barra .bderech {
+    color:white;
+    margin-top: 20px;
+    width: 30%;
+    text-decoration: none;
+    border-radius: 30%;
+    height: 30%;
+    padding: 7px 5px;
+    text-align: center;
+    border: 1px solid #22A75D;
+   
+}
+
+.cuadros{
+    display: flex;
+    width: 100%;
+    height: 100%;
+   
+}
+.cuadros .cuadro1{
+    width: 500px;
+    height:250px ;
+    background-color: #171B29;
+    margin: 10px;
+    border-radius: 20px;
+    margin-left: 150px;
+    
+
+}
+.cuadros .cuadro1 h2{
+    margin-top: -28px;
+    margin-left:40px ;
+}
+.cuadros .cuadro1 p{
+    margin-top: -15px;
+    margin-left:40px ;
+    font-size: 10px;
+    font-family: Century Gothic;
+    padding-bottom: 30px;
+    color: white;
+}
+.cuadros .cuadro1 .none{
+    margin-top: 70px;
+    margin-left: 40px;
+    color: #22A75D;
+   
+}
+
+
+.cuadros .cuadro1 .icorona{
+    background-color: #22A75D;
+    border-radius: 50px;
+    margin: 40px 40px;
+    padding: 10px;
+}
+.cuadros .cuadro2{
+    width: 500px;
+    height:250px ;
+    background-color: #171B29;
+    margin: 70px 0 0 20px;
+    border-radius: 20px;
+}
+
+.cuadros .cuadro2 .iestrella{
+    background-color: #2278D4;
+    border-radius: 50px;
+    margin: 40px 40px;
+    padding: 10px;
+}
+.cuadros .cuadro2 p{
+    margin-top: -15px;
+    padding-bottom: 14px;
+    margin-left:40px ;
+    font-size: 10px;
+    font-family: Century Gothic;
+}
+.cuadros .cuadro2 h2{
+    margin-top: -28px;
+    margin-left:40px ;
+}
+.cuadros .cuadro2 .none2{
+    margin-top: 70px;
+    margin-left: 40px;
+    color:#2278D4;
+}
+/* etapa tres */
+.curvos{
+    display: flex;
+    padding-top: 60px;
+    
+}
+.curvos .curvo1{
+    width: 50%;
+}
+.curvos .curvo1 .colores{
+    
+    width: 100%;
+}
+
+.curvos .curvo2 {
+    width: 50%;
+    text-align: left;
+    
+}
+
+.curvos .curvo2{
+    background-color: white;
+    width: 45%;
+    border-radius: 50% 0 0 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+.curvos .curvo2 h2{
+    text-align: center;
+    font-size: 200% ;
+}    
+.curvos .curvo2 .pa1{
+    text-align: center;
+
+}
+.curvos .curvo2 .parrafo p{
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.radio{
+    display: flex;
+    justify-content: flex-end;
+}
+.radio .vec{
+    width: 15%;
+}
+/* Parte iconos Q */
+.iconos{
+    display: flex;
+    margin-left: -30px;
+    li{
+        font-size: 10px;
+    }
+    
+   
+}
+.icono1{
+    margin-left: -61;
+    width: 20%;
+}
+.iconos .icono1 .elipse1{
+    display: flex;
+}
+.iconos .icono1 .elipse1 .grande{
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 104px;
+   
+    
+}
+.iconos .icono1  .ppequeño .pequeño{
+    margin-left: -39px;
+  padding-top: 142px;
+    
+}
+
+.iconos .icono1 .elipse1 .q1{
+    margin-top: 114px;
+    margin-left:-95px;
+}
+.iconos .icono1 ul{
+    margin-top: 40px;
+    margin-left: 80px;
+    color: white;
+    list-style: none;
+    
+}
+.iconos .icono1 .elipse1 .año{
+    margin-top: 140px;
+}
+/* icono 2 */
+ .icono2{
+    margin-left: -25px;
+    width: 25%;
+ }  
+
+.iconos .icono2 .elipse2{
+    display: flex;
+}
+.iconos .icono2 .elipse2 .grande2{
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 104px;
+   
+    
+}
+.iconos .icono2  .p2pequeño .pequeñi{
+    margin-left: -39px;
+  padding-top: 142px;
+    
+}
+
+.iconos .icono2 .elipse2 .q2{
+    margin-top: 114px;
+    margin-left:-95px;
+}
+.iconos .icono2 ul{
+    margin-top: 60px;
+    margin-left: 80px;
+    color: white;
+    list-style: none;
+    margin-top: 40px;
+    line-height:30px;
+
+    
+}
+.iconos .icono2 .elipse2 .año2{
+    margin-top: 140px;
+}
+/* icono3 */
+.icono3{
+   
+    width: 25%;
+   
+ }  
+
+.iconos .iconos3 .elipse3{
+    display: flex;
+}
+.iconos .iconos3 .elipse3 .grande3{
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 104px;
+   
+    
+}
+.iconos .iconos3  .p3pequeño .pequeñi3{
+    margin-left: -39px;
+  padding-top: 142px;
+    
+}
+
+.iconos .iconos3 .elipse3 .q3{
+    margin-top: 114px;
+    margin-left:-95px;
+}
+.iconos .iconos3 ul{
+    margin-top: 70px;
+    margin-left: 80px;
+    color: white;
+    list-style: none;
+    margin-top: 40px;
+    line-height:30px;
+    
+    
+
+    
+}
+.iconos .iconos3 .elipse3 .año3{
+    margin-top: 140px;
+}
+/* icono 4 */
+
+.icono4{
+   
+    width: 25%;
+   
+ }  
+
+.iconos .icono4 .elipse4{
+    display: flex;
+}
+.iconos  .elipse4 .grande4{
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 104px;
+   
+    
+}
+.iconos .icono4  .p4pequeño .pequeñi4{
+    margin-left: -39px;
+  padding-top: 142px;
+    
+}
+
+.iconos .icono4 .elipse4 .q4{
+    margin-top: 114px;
+    margin-left:-95px;
+}
+.iconos .icono4 ul{
+    margin-top: 60px;
+    margin-left: 80px;
+    color: white;
+    list-style: none;
+    margin-top: 40px;
+    line-height:30px;
+    
+    
+
+    
+}
+.iconos .icono4 .elipse4 .año4{
+    margin-top: 140px;
+}
+/* parte celular en la mano */
+.mano .hijo1{
+    display: flex;
+}
+.mano .lo{
+    display: flex;
+}
+.mano .hijo1{
+    width: 50%;
+}
+.mano .hijo1 .cel{
+    width: 30%;
+    
+}
+.mano .hijo1 .cel .c{
+    width: 80%;
+}
